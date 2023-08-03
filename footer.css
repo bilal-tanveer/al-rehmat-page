@@ -1,0 +1,106 @@
+.footer{
+    display: flex;
+    position: relative;
+    background-color: rgb(11, 11, 33);
+    background-image: url(icons/footer-shape1.png);
+}
+.footer h3{
+    color: white;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-left: 20px;
+    row-gap: 15px;
+    padding: 15px 10px;
+    align-items: center;
+}
+.contact img{
+    height: 35px;
+    margin: 0px 10px;
+    width: 30px;
+}
+.cno{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 27px;
+}
+.cno p{
+    font-size: 20px;
+    color: rgb(27, 120, 226);
+}
+.foot2{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.foot2 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+.foot2 h1{
+    color: rgb(27, 110, 226);
+    padding-bottom: 10px;
+}
+@media (max-width:550px){
+    .footer{
+        display: flex;
+        position: relative;
+    }
+    .foot1{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        padding: 15px 10px;
+        align-items: center;
+    }
+    .contact img{
+        height: 25px;
+        margin: 0px 10px;
+        width: 20px;
+    }
+    .cno{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        row-gap: 25px;
+    }
+    .cno p{
+        font-size: 12px;
+        color: rgb(226, 27, 121);
+    }
+    .foot2{
+        padding-left: 50px;
+        padding-right: 10px;
+        padding-top: 55px;
+    }
+    .foot2 img{
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        padding-bottom: 10px;
+    }
+    .foot2 h1{
+        color: rgb(226, 27, 121);
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .foot2 h3{
+        font-size: 12px;
+    }
+}

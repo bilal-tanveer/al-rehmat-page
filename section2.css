@@ -1,0 +1,57 @@
+.section2{
+    padding-top: 4.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section2 h1 span{
+    color: rgb(255, 51, 0);
+}
+.section2-data{
+    align-items: baseline;
+    text-align: left;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.section2-data span{
+    color: rgb(75, 75, 75);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.section2-data p{
+    color: rgb(126, 121, 121);
+    word-spacing: .1875rem;
+}
+.section2-data button img{
+    width: 3.125rem;
+    color: white;
+}
+.section2-data button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    border: none;
+    border-radius: .625rem;
+    padding: .9375rem 1.25rem;
+}
+.section2-data button:hover{
+padding: .9375rem 1.5625rem;
+    background-color: rgb(255, 60, 0);
+    box-shadow: 0 0 1.875rem rgb(255, 60, 0);
+    transition:padding 0.5s ;
+}
+.section2-data button:active{
+    opacity: 0.5;
+}
+@media(max-width:500px){
+    .section2{
+margin-top: 130px;
+    }
+}
